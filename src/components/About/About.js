@@ -6,11 +6,13 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Hero from "./Hero";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
+      <Hero />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

@@ -6,7 +6,7 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <p className="project-heading" style={{ paddingBottom: "20px" }}>
-        I commit daily — just not in public repos, out of <strong className="purple">respect for my employer’s </strong> codebase.
+        I commit daily — just not in public repos.
         My GitHub may look quiet, but my <strong className="purple">company’s repo </strong> tells a different story
       </p>
       <GitHubCalendar
